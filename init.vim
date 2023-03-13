@@ -30,3 +30,4 @@ let g:gruvbox_material_background='soft'
 " Automatically enter Goyo mode when opening any files
 " autocmd BufRead,BufNewFile * :Goyo 80
 
+command! FormatJson %!python -m json.tool
