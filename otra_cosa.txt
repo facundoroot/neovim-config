@@ -6,3 +6,5 @@
   "suggest.maxCompleteItemCount": 3,
   "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.1/clangd_15.0.1/bin/clangd"
 }
+
+pasar a coc-settings.json

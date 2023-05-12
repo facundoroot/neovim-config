@@ -5,6 +5,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'preservim/nerdtree'
 	Plug 'francoiscabrol/ranger.vim'
 	Plug 'liuchengxu/vim-which-key'
+	" remember to install dependencies for live_grep
 	Plug 'nvim-telescope/telescope.nvim'
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'rbgrouleff/bclose.vim'
@@ -19,8 +20,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
    "Completion / linters / formatters
 	Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install'}
-	Plug 'plasticboy/vim-markdown'
-	Plug 'sheerun/vim-polyglot'
+	"Plug 'plasticboy/vim-markdown'
+	"Plug 'sheerun/vim-polyglot'
 
   "Git
 	Plug 'airblade/vim-gitgutter'
